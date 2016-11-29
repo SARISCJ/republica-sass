@@ -3,9 +3,6 @@
 #PROYECTO DIARIO LA REPUBLICA
 <hr>
 
-![Imagen](http://i65.tinypic.com/2ut2qur.png (428KB)
-
-"Imagen")
 
 ##DIARIO LA REPUBLICA CON SASS
 
