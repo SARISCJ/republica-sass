@@ -1,0 +1,43 @@
+@mixin letra-size-enc( $font-tamanio: 2em){
+	font-family: "Oswald:400,700" , sans-serif;
+	font-size: $font-tamanio;
+
+}
+
+@mixin posicion( $posicion: right){
+	text-align: $posicion;
+}
+
+@mixin btn-rojo( $color: red){
+	display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 2px 6px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: $color;
+    text-decoration: none;
+    font-size: 0.6em;
+}
+
+@mixin icon-social-enc( $color-icon-soc: blue, $pad-top: 20px, $pad-left: 20px){
+	color: $color-icon-soc;
+	padding:  $pad-top  $pad-left ;
+}
+
+@mixin miniatura{
+	background-color: white;
+	height: 55px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    text-align: center;
+}
