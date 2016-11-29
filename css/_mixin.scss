@@ -1,0 +1,7 @@
+@mixin padding-cols($padding-top:25%, $padding-right:25%, $padding-bottom:25%, $padding-left:25%){
+   padding: $padding-top $padding-right $padding-bottom $padding-left;
+}
+
+@mixin margin-cols($margin-top:25%, $margin-right:25%, $margin-bottom:25%, $margin-left:25%){
+   margin: $margin-top $margin-right $margin-bottom $margin-left;
+}

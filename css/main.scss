@@ -1,0 +1,39 @@
+@import "_variables";
+@import "_mixin";
+
+*{
+	box-sizing : border-box;
+}
+
+.columnistas{
+	h1{
+		font-weight: $bolder;
+		color: #000;
+	}
+	p{
+		font-weight: $bolder;
+		color: $gray;
+	}
+}
+
+.titCol{
+	font-weight: bold;
+}
+
+.borderCol{
+	width: 260px;
+  height: 192px;
+	border: 2px solid $border;
+	@include padding-cols(1%, 1%, 1%, 2%);
+	@include margin-cols(0, 2%, 2%, 0 );
+}
+
+.fondoCol{
+	width: 240px;
+	background-color: $fondo;
+}	
+
+.medio{
+	@include padding-cols(0, 0, 8%, 0);
+}
+

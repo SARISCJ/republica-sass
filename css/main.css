@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box; }
+
+.columnistas h1 {
+  font-weight: bolder;
+  color: #000; }
+.columnistas p {
+  font-weight: bolder;
+  color: #768596; }
+
+.titCol {
+  font-weight: bold; }
+
+.borderCol {
+  width: 260px;
+  height: 192px;
+  border: 2px solid #E2E2E2;
+  padding: 1% 1% 1% 2%;
+  margin: 0 2% 2% 0; }
+
+.fondoCol {
+  width: 240px;
+  background-color: #E2E6E9; }
+
+.medio {
+  padding: 0 0 8% 0; }
+
+/*# sourceMappingURL=main.css.map */
