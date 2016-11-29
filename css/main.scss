@@ -197,4 +197,42 @@ dfn {
     top: -8%;
     left: 87%;
 }
+.col-xs-3 {
+    .text-colum {
+        color: $color-text-columnistas;
+    }
+}
+.list-menu {
+    background: $fondo-men-columna;
+    @include padding-columnas (2rem, 2rem, 2rem, 2rem);
+    @include  margin-columnas (2rem, 0, 5rem, 0);
+    @include  margin-columnas (2rem, 0, 5rem, 0);
+    .list-menu-li {
+        @include padding-columnas (0, 3rem, 0, 3rem);
+        color:$color-text-menu;
+        display: inline-block;
+        font-size: 16px;    }
+    .list-menu-li:hover{
+        background: #811101;
+        border-radius: 10px;
+    }
+}
+.m-colu{
+    @include  margin-columnas (1rem, 0, 0, 0);
+}
+.card-column{
+    background: $fondo; 
+    @include  margin-columnas (0.3rem, 0.7rem, 0.3rem, 0.7rem);
+}
+.img-profile-col{
+    @include  margin-columnas (2rem, -1rem, 2rem, -1rem);
+}
+.text-name-col {
+    font-size: 12px;
+    @include  margin-columnas (3rem, -1.5rem, 0, -1.5rem);
+}
+.subname-col{
+    color:$color-text-columnistas;
+    font-weight: 700;
+}
 

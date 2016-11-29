@@ -193,4 +193,38 @@ dfn {
   top: -8%;
   left: 87%; }
 
+.col-xs-3 .text-colum {
+  color: #768296; }
+
+.list-menu {
+  background: #BA1414;
+  padding: 2rem 2rem 2rem 2rem;
+  margin: 2rem 0 0 0; }
+  .list-menu .list-menu-li {
+    padding: 0 3rem 0 3rem;
+    color: white;
+    display: inline-block;
+    font-size: 16px; }
+  .list-menu .list-menu-li:hover {
+    background: #811101;
+    border-radius: 10px; }
+
+.m-colu {
+  margin: 1rem 0 0 0; }
+
+.card-column {
+  background: #E2E6E9;
+  margin: 0.3rem 0.7rem 0.3rem 0.7rem; }
+
+.img-profile-col {
+  margin: 2rem -1rem 2rem -1rem; }
+
+.text-name-col {
+  font-size: 12px;
+  margin: 3rem -1.5rem 0 -1.5rem; }
+
+.subname-col {
+  color: #768296;
+  font-weight: 700; }
+
 /*# sourceMappingURL=main.css.map */
