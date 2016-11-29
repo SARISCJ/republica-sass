@@ -1,3 +1,61 @@
 @mixin padding-footers($padding-top:25%, $padding-right:25%, $padding-bottom:25%, $padding-left:25%){
     padding: $padding-top $padding-right $padding-bottom $padding-left;
 }
+
+@mixin padding-cols($padding-top:25%, $padding-right:25%, $padding-bottom:25%, $padding-left:25%){
+   padding: $padding-top $padding-right $padding-bottom $padding-left;
+}
+
+@mixin margin-cols($margin-top:25%, $margin-right:25%, $margin-bottom:25%, $margin-left:25%){
+   margin: $margin-top $margin-right $margin-bottom $margin-left;
+}
+
+@mixin letra-size-enc( $font-tamanio: 2em){
+	font-family: "Oswald:400,700" , sans-serif;
+	font-size: $font-tamanio;
+}
+
+@mixin posicion( $posicion: right){
+	text-align: $posicion;
+}
+
+@mixin btn-rojo( $color: red){
+	display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 2px 6px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: $color;
+    text-decoration: none;
+    font-size: 0.6em;
+}
+
+@mixin icon-social-enc( $color-icon-soc: blue, $pad-top: 20px, $pad-left: 20px){
+	color: $color-icon-soc;
+	padding:  $pad-top  $pad-left ;
+}
+
+@mixin miniatura{
+	background-color: white;
+	height: 55px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    text-align: center;
+}
+
+@mixin margin-columnas ($margin-top:50rem, $margin-left:50rem, $margin-right: 50rem, $margin-bottom: 50rem){
+    margin: $margin-top $margin-left $margin-right $margin-bottom;
+}
+@mixin padding-columnas ($padding-top:50rem, $padding-left:50rem, $padding-right: 50rem, $padding-bottom: 50rem){
+    padding: $padding-top $padding-left $padding-right $padding-bottom;
+}

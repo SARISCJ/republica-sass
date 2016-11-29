@@ -6,13 +6,243 @@
   font-family: "Oswald:400,700" , sans-serif;
 }
 
+.columnistas{
+	h1{
+		font-weight: $bolder;
+		color: #000;
+	}
+	p{
+		font-weight: $bolder;
+		color: $gray;
+	}
+}
+
+.titCol{
+	font-weight: bold;
+}
+
+.borderCol{
+	width: 260px;
+  height: 192px;
+	border: 2px solid $border;
+	@include padding-cols(1%, 1%, 1%, 2%);
+	@include margin-cols(0, 2%, 2%, 0 );
+}
+
+.fondoCol{
+	width: 240px;
+	background-color: $fondo;
+}	
+
+.medio{
+	@include padding-cols(0, 0, 8%, 0);
+}
+
+body{
+	margin: 0;
+}
+
+.encabezado-inicial{
+	background-color: $color-encab-gray;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+
+.text-suscr{
+	@include posicion(right);
+}
+
+.enlaces-encabezado {
+	@include letra-size-enc(0.7em);
+	text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  padding-top: 15px;
+  margin: auto 0px;
+  list-style: none;
+}
+
+a {
+  color: rgb(125, 125, 125);
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+.btn-suscripcion{
+	@include btn-rojo(#DD4A4A);
+}
+.btn-suscripcion:hover{
+	color:white;
+	text-decoration: none;
+}
+
+.icon-face{
+	@include icon-social-enc( blue, 5px, 4px);
+}
+
+.icon-twit{
+	@include icon-social-enc( #4099FF, 5px, 4px);
+}
+
+.icon-goog{
+	@include icon-social-enc( red, 5px, 4px);
+}
+
+.icon-mail{
+	@include icon-social-enc( yellow, 5px, 4px);
+}
+
+.icon-rss{
+	@include icon-social-enc( orange, 5px, 4px);
+}
+
+.icons-redes{
+	display: inline-block;
+	font-size: 14px;
+}
+
+.form-buscar{
+	background-color: #E4E7EA;
+	display: inline-block;
+}
+.inp-buscar{
+	background-color: #E4E7EA;
+  width: 40px;
+  font-size: 10px;
+  border: none;
+}
+.btn-buscar{
+	display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 2px 6px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 4px; 	 
+  color: #848484;
+  background-color: #E4E7EA;
+}
+
+.logo-republica{
+	padding-top: 11%;
+}
+
+.miniatura-columna-diaria p {
+  padding-top: 9%;
+  font-size: 13px;
+}
+.titulo-miniatura {
+  color: #FFFFFF;
+  background-color: $rojo-republica;
+  font-size: 16px;
+  height: 19px;
+  width: 30%;
+  margin: -4% 35%;
+}
+
+.miniatura-columna-diaria {
+  @include miniatura;
+  border-top: 1px solid $gris-encab;
+  border-left: 1px solid $gris-encab;
+  border-right: 1px solid $gris-encab;
+  border-bottom: 3px solid $rojo-republica;
+}
+
+.miniatura-editorial {
+	@include miniatura;
+  border: 1px solid $gris-encab;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+
+}
+.editorial-columna {
+  position: absolute;
+  top: 5%;
+}
+
+.seccion-editorial {
+  background-color: #111417;
+  position: relative;
+  margin-top: 28px;
+}
+.tit-cdr-1{
+	margin: 10px 0;
+}
+
+.miniatura-editorial dfn {
+  font-size: 14px;
+}
+
+dfn {
+  font-style: italic;
+}
+
+.autor-columna {
+  position: absolute;
+  top: -8%;
+  left: 87%;
+}
+.col-xs-3 {
+  .text-colum {
+      color: $color-text-columnistas;
+  }
+}
+.list-menu {
+  background: $fondo-men-columna;
+  @include padding-columnas (2rem, 2rem, 2rem, 2rem);
+  @include  margin-columnas (2rem, 0, 5rem, 0);
+  @include  margin-columnas (2rem, 0, 5rem, 0);
+  .list-menu-li {
+    @include padding-columnas (0, 3rem, 0, 3rem);
+    color:$color-text-menu;
+    display: inline-block;
+    font-size: 16px;    }
+  .list-menu-li:hover{
+    background: #811101;
+    border-radius: 10px;
+  }
+}
+.m-colu{
+  @include  margin-columnas (1rem, 0, 0, 0);
+}
+.card-column{
+  background: $fondo; 
+  @include  margin-columnas (0.3rem, 0.7rem, 0.3rem, 0.7rem);
+}
+.img-profile-col{
+  @include  margin-columnas (2rem, -1rem, 2rem, -1rem);
+}
+.text-name-col {
+  font-size: 12px;
+  @include  margin-columnas (3rem, -1.5rem, 0, -1.5rem);
+}
+.subname-col{
+  color:$color-text-columnistas;
+  font-weight: 700;
+}
+
 .fondo-footer{ 
   background-color: $background-footer;
 
   .container {
     @include padding-footers(2%, 2%, 2%, 2%);
   }  
-	.grp-repu-logo{
+  .grp-repu-logo{
     @include padding-footers(2%, 0, 0, 0);
     width: 100%;
   }
