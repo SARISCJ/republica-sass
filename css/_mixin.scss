@@ -1,3 +1,3 @@
-@mixin padding-footers($padding-left:25%, $padding-tops:25%, $padding-right:25%, $padding-bottom:25%){
-    padding: $padding-left $padding-tops $padding-right $padding-bottom;
+@mixin padding-footers($padding-top:25%, $padding-right:25%, $padding-bottom:25%, $padding-left:25%){
+    padding: $padding-top $padding-right $padding-bottom $padding-left;
 }
