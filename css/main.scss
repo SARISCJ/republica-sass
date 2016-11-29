@@ -1,3 +1,5 @@
+@import "_variables";
+
 * {
   font-family: 'PT Sans'; }
 
@@ -6,35 +8,34 @@
   text-decoration: none; }
 
 .styleLi {
-  background: #BA1414;
+  background: $rojocolor;
   display: inline-block;
-  border: 1px solid #850708;
+  border: 1px solid $rojo2;
   padding: 2px;
   margin: -2px; }
 
 a {
-  color: #fff;
-  font-family: arial;
-  font-size: 12px; }
+  color: $blancocolor;
+  font-family: $arialletra;
+  font-size: $tamano12; }
 
 .letra-azul {
-  background: #113673;
+  background: $azulcolor;
   display: inline-block; }
 
 .tema {
-  background: #040404;
-  color: #fff;
+  background: $negrocolor;
+  color: $blancocolor;
   font-family: arial;
-  font-size: 12px;
+  font-size: $tamano12;
   font-weight: bolder;
   padding: 1px; }
 
 .colorPlomo {
-  background: #D0CECE;
+  background: $plomocolor;
   display: inline-block;
   padding: 2px;
   padding-left: 15px;
   padding-right: 19px;
-  margin: -2px; }
-
-/*# sourceMappingURL=main.css.map */
+  margin: -2px;
+  }
