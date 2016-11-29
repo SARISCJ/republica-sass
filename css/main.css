@@ -1,5 +1,263 @@
 * {
-  font-family: 'PT Sans'; }
+  box-sizing: border-box;
+  font-family: "Oswald:400,700" , sans-serif; }
+
+.columnistas h1 {
+  font-weight: bolder;
+  color: #000; }
+.columnistas p {
+  font-weight: bolder;
+  color: #768596; }
+
+.titCol {
+  font-weight: bold; }
+
+.borderCol {
+  width: 260px;
+  height: 192px;
+  border: 2px solid #E2E2E2;
+  padding: 1% 1% 1% 2%;
+  margin: 0 2% 2% 0; }
+
+.fondoCol {
+  width: 240px;
+  background-color: #E2E6E9; }
+
+.medio {
+  padding: 0 0 8% 0; }
+
+body {
+  margin: 0; }
+
+.encabezado-inicial {
+  background-color: #eee; }
+
+.text-center {
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.text-suscr {
+  text-align: right; }
+
+.enlaces-encabezado {
+  font-family: "Oswald:400,700" , sans-serif;
+  font-size: 0.7em;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  padding-top: 15px;
+  margin: auto 0px;
+  list-style: none; }
+
+a {
+  color: #7d7d7d;
+  text-decoration: none;
+  padding-right: 15px; }
+
+.btn-suscripcion {
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 2px 6px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #DD4A4A;
+  text-decoration: none;
+  font-size: 0.6em; }
+
+.btn-suscripcion:hover {
+  color: white;
+  text-decoration: none; }
+
+.icon-face {
+  color: blue;
+  padding: 5px 4px; }
+
+.icon-twit {
+  color: #4099FF;
+  padding: 5px 4px; }
+
+.icon-goog {
+  color: red;
+  padding: 5px 4px; }
+
+.icon-mail {
+  color: yellow;
+  padding: 5px 4px; }
+
+.icon-rss {
+  color: orange;
+  padding: 5px 4px; }
+
+.icons-redes {
+  display: inline-block;
+  font-size: 14px; }
+
+.form-buscar {
+  background-color: #E4E7EA;
+  display: inline-block; }
+
+.inp-buscar {
+  background-color: #E4E7EA;
+  width: 40px;
+  font-size: 10px;
+  border: none; }
+
+.btn-buscar {
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 2px 6px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+  color: #848484;
+  background-color: #E4E7EA; }
+
+.logo-republica {
+  padding-top: 11%; }
+
+.miniatura-columna-diaria p {
+  padding-top: 9%;
+  font-size: 13px; }
+
+.titulo-miniatura {
+  color: #FFFFFF;
+  background-color: #BA1414;
+  font-size: 16px;
+  height: 19px;
+  width: 30%;
+  margin: -4% 35%; }
+
+.miniatura-columna-diaria {
+  background-color: white;
+  height: 55px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-weight: bold;
+  text-align: center;
+  border-top: 1px solid #7D7D7D;
+  border-left: 1px solid #7D7D7D;
+  border-right: 1px solid #7D7D7D;
+  border-bottom: 3px solid #BA1414; }
+
+.miniatura-editorial {
+  background-color: white;
+  height: 55px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #7D7D7D;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px; }
+
+.editorial-columna {
+  position: absolute;
+  top: 5%; }
+
+.seccion-editorial {
+  background-color: #111417;
+  position: relative;
+  margin-top: 28px; }
+
+.tit-cdr-1 {
+  margin: 10px 0; }
+
+.miniatura-editorial dfn {
+  font-size: 14px; }
+
+dfn {
+  font-style: italic; }
+
+.autor-columna {
+  position: absolute;
+  top: -8%;
+  left: 87%; }
+
+.col-xs-3 .text-colum {
+  color: #768296; }
+
+.list-menu {
+  background: #BA1414;
+  padding: 2rem 2rem 2rem 2rem;
+  margin: 2rem 0 5rem 0;
+  margin: 2rem 0 5rem 0; }
+  .list-menu .list-menu-li {
+    padding: 0 3rem 0 3rem;
+    color: white;
+    display: inline-block;
+    font-size: 16px; }
+  .list-menu .list-menu-li:hover {
+    background: #811101;
+    border-radius: 10px; }
+
+.m-colu {
+  margin: 1rem 0 0 0; }
+
+.card-column {
+  background: #E2E6E9;
+  margin: 0.3rem 0.7rem 0.3rem 0.7rem; }
+
+.img-profile-col {
+  margin: 2rem -1rem 2rem -1rem; }
+
+.text-name-col {
+  font-size: 12px;
+  margin: 3rem -1.5rem 0 -1.5rem; }
+
+.subname-col {
+  color: #768296;
+  font-weight: 700; }
+
+.fondo-footer {
+  background-color: #E2E4E6; }
+  .fondo-footer .container {
+    padding: 2% 2% 2% 2%; }
+  .fondo-footer .grp-repu-logo {
+    padding: 2% 0 0 0;
+    width: 100%; }
+  .fondo-footer .col-xs-4 {
+    font-size: 14.28571px; }
+  .fondo-footer .col-xs-4 h4 {
+    font-size: 16.84211px;
+    padding: 0 0 2% 0; }
+  .fondo-footer .col-xs-4 p {
+    line-height: 0.8; }
+  .fondo-footer .col-xs-4 h6 {
+    padding: 2% 0 0 0; }
+  .fondo-footer .col-xs-3 a {
+    text-decoration: none;
+    color: #333338;
+    font-size: 12.8px; }
+  .fondo-footer .etg {
+    color: white;
+    background-color: #333338;
+    text-align: center;
+    padding: 2% 2% 2% 2%; }
+  .fondo-footer .suscri-boletin {
+    background-image: url(../image/bg_trama_rayas.png);
+    height: 400px;
+    padding: 50% 24% 50% 24%; }
 
 .fondoRojo {
   font-weight: bolder;
@@ -14,7 +272,7 @@
 
 a {
   color: #fff;
-  font-family: arial;
+  font-family: #040404;
   font-size: 12px; }
 
 .letra-azul {
