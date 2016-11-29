@@ -1,0 +1,47 @@
+@import "_variables" ;
+@import "_mixin" ;
+
+* {
+  box-sizing: border-box;
+}
+
+.fondo-footer{ 
+  background-color: $background-footer;
+
+  .container {
+    @include padding-footers(2%, 2%, 2%, 2%);
+  }  
+	.grp-repu-logo{
+    @include padding-footers(2%, 0, 0, 0);
+    width: 100%;
+  }
+  .col-xs-4 {
+    font-size: $font-size-footer/1.12;
+  }
+  .col-xs-4 h4{
+    font-size: $font-size-footer/.95;
+    @include padding-footers(0, 0, 2%, 0);
+  }
+  .col-xs-4 p{
+    line-height: 0.8;
+  }
+  .col-xs-4 h6{
+    @include padding-footers(2%, 0, 0, 0);
+  }
+  .col-xs-3 a{
+    text-decoration: none;
+    color: $color-footer;
+    font-size: $font-size-footer/1.25;
+  }
+  .etg{
+    color: white;
+    background-color: $color-footer;
+    text-align: center;
+    @include padding-footers(2%, 2%, 2%, 2%);
+  }
+  .suscri-boletin{
+    background-image: url(../image/bg_trama_rayas.png);
+    height: 400px;
+    @include padding-footers(50%, 24%, 50%, 24%);
+  }
+}
