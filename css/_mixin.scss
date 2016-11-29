@@ -1,0 +1,6 @@
+@mixin margin-columnas ($margin-top:50rem, $margin-left:50rem, $margin-right: 50rem, $margin-bottom: 50rem){
+    margin: $margin-top $margin-left $margin-right $margin-bottom;
+}
+@mixin padding-columnas ($padding-top:50rem, $padding-left:50rem, $padding-right: 50rem, $padding-bottom: 50rem){
+    padding: $padding-top $padding-left $padding-right $padding-bottom;
+}
